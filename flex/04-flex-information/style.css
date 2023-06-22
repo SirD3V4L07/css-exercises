@@ -12,6 +12,37 @@ img {
   font-weight: 900;
 }
 
+.plant-wraper {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  padding:50px;
+  text-align: center;
+}
+
+.plant-wraper div {
+  margin-top:20px;
+  font-size:22px;
+  color:#666;
+  font-weight:300;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  align-items: center;
+}
+
+#plants {
+  display: flex;
+  flex-direction: row;
+}
+
+/*#plants div {
+  display: block;
+}*/
+
 /* do not edit this footer */
 .footer {
   position: fixed;
